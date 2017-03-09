@@ -1,18 +1,15 @@
 {
 
-  "description": "Adds a solid red border to all webpages matching mozilla.org. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#borderify",
+  "description": "Adds a button to save Trello Board as JSON",
   "manifest_version": 2,
-  "name": "Borderify",
-  "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
-  "icons": {
-    "48": "icons/border-48.png"
-  },
+  "name": "Trello Save",
+  "version": "0.1",
+  "homepage_url": "http://dtor.com/",
 
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
-      "js": ["borderify.js"]
+      "matches": ["*://trello.com/b/*"],
+      "js": ["export_json.js"]
     }
   ]
 

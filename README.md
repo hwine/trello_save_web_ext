@@ -1,16 +1,19 @@
-# borderify
+# trello_export
 
-**This add-on injects JavaScript into web pages. The `addons.mozilla.org` domain disallows this operation, so this add-on will not work properly when it's run on pages in the `addons.mozilla.org` domain.**
+**This add-on allows exporting a Trello Board's data as JSON**
+
+This can be handy to have a local backup when there are problems with
+the intertubes.
+
+Note that Trello's mobile apps support offline work - this does not. It
+is a read-only snapshot. There is no way to import this data.
 
 ## What it does
 
-This extension just includes:
+This extension will put a link labeled "JSON" next to the permission
+level of the board. Right click the link, and "Save link as" to backup
+the board.
 
-* a content script, "borderify.js", that is injected into any pages
-under "mozilla.org/" or any of its subdomains
-
-The content script draws a border around the document.body.
-
-## What it shows
-
-* how to inject content scripts declaratively using manifest.json
+The resultant json has no white space. If you need to view it, you
+should have the json formatted. One way is to open the JSON file in
+Firefox.
