@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "name": "Trello Save",
   "version": "0.1",
-  "homepage_url": "http://dtor.com/",
+  "homepage_url": "https://github.com/hwine/trello_save_web_ext",
 
   "content_scripts": [
     {
