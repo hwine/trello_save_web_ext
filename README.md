@@ -20,6 +20,13 @@ The resultant json has no white space. If you need to view it, you
 should have the json formatted. The easiest way is to open the JSON file
 in Firefox.
 
+## Where to get it
+
+Easiest is to open the latest [signed
+XPI](https://github.com/hwine/trello_save_web_ext/releases) from the
+releases. Otherwise, clone the repo & do whatever developer dance you
+like. (I'm using ```web-ext```.)
+
 ## Thanks to Trello!
 
 For including the [export
