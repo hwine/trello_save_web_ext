@@ -1,4 +1,4 @@
-# trello_export
+# trello_save
 
 **This add-on simplifies exporting a Trello Board's data as JSON**
 
