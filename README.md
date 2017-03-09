@@ -23,7 +23,7 @@ in Firefox.
 ## Thanks to Trello!
 
 For including the [export
-feature](http://help.trello.com/article/747-exporting-data-from-trello-1)
-- I just found that UI too buried. They have some [good
-  notes](http://help.trello.com/article/924-making-sense-of-trellos-json-export)
-  on viewing the JSON as well.
+feature](http://help.trello.com/article/747-exporting-data-from-trello-1) -
+I just found that UI too buried. They have some [good
+notes](http://help.trello.com/article/924-making-sense-of-trellos-json-export)
+on viewing the JSON as well.
