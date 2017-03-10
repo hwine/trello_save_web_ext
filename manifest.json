@@ -3,7 +3,7 @@
   "description": "Adds a button to save Trello Board as JSON",
   "manifest_version": 2,
   "name": "Trello Save",
-  "version": "0.1",
+  "version": "0.2",
   "homepage_url": "https://github.com/hwine/trello_save_web_ext",
 
   "content_scripts": [

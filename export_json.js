@@ -7,12 +7,15 @@ Add a link that exports board in JSON
 //{
     var previous_node = document.getElementById("permission-level");
     if( previous_node ) {
-        var re = /(.*\/trello.com\/b\/[^\/]+)/;
+        var re = /(.*\/trello.com\/b\/[^\/]+)\/(.*)$/;
         var url = document.URL;
-        var board_url = url.match(re)[0];
+        var board_url = url.match(re)[1];
+        var now = new Date;
+        var file_name = now.toISOString() + "-" + url.match(re)[2] + ".json";
         var link = document.createElement("a");
         link.id="json_save";
         link.title = "Save backup for reference";
+        link.download = file_name;
         // style same as other buttons
         link.classList = ["board-header-btn"];
         // but without padding for icon
